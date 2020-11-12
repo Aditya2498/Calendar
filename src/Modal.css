@@ -1,58 +1,28 @@
 
  .maincontainer{
-    position: absolute;
-    width: 500px;
-    height: 320px;
-    background: none;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  
+    display: flex;
+    justify-content: center;
+    margin-bottom: auto;
+    border: 10px solid black;
+    height: auto;
+    width:480px ;
+   
+    border-radius: 25px;
+    color: rgb(112, 84, 14);
+    margin-bottom: 15px;
   }
   
 
-  .thecard{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 40%;
-    border-radius: 10px;
-    transform-style: preserve-3d;
-    transition: all 0.8s ease;
+  .box-1{
+   
+ 
+    flex: 1px;
+     background-color: rgb(255, 130, 88);
+    
   }
-  
 
-  .thecard:hover{
-    transform: rotateY(180deg);
-  }
-  
-  
-   .thefront{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    backface-visibility: hidden;
-    overflow: hidden;
-    background: linear-gradient(red,yellow);
-    color: #000;
-  }
-  
-  
-  .theback{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    backface-visibility: hidden;
-    overflow: hidden;
-    background: linear-gradient(red,yellow);
-    color: #000;
-    text-align: center;
-    transform: rotateY(180deg);
-  }
+  .box-2{
+    
+    flex: 2;
+    float: right;
+}

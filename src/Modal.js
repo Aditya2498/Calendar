@@ -9,25 +9,32 @@ const Mdal = (props) =>{
  
     return( <div>
               
-              <Modal isOpen= {props.visible} onRequestClose= {props.onClose} >
-              <Scroll className= 'maincontainer'>
-              <div className = 'thecard'>
-              <div className= 'thefront'><h1>6:30 Am  Morning Yoga</h1>
-              <p>A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project
-                 that the writer is trying to complete. By inserting a completely random paragraph from which to begin, it can take down some of the issues that may have been
-                  causing the writers' block in the first place.</p>
+              <Modal isOpen= {props.visible} onRequestClose= {props.onClose}  >
+              
+              
+              <div className= ' '>
+              <div className= 'box-1'><h1>6:30 Am  Morning Yoga</h1></div>
+              <div> <p classname= 'box-2'>A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project
+              that the writer is trying to complete. </p><button >Regsiter now</button></div>
               </div>
-              <div className='theback'><h1>Suryanamaskar</h1></div>
-              </div>
-              <div className = 'thecard'>
-              <div className= 'thefront'><h1>4:30 Am  Evening Yoga</h1></div>
-              <div className='theback'><h1>Calesthenics</h1></div>
-              </div>
-              <div className = 'thecard'>
-              <div className= 'thefront'><h1>8:30 pm  Evening Yoga</h1></div>
-              <div className='theback'><h1>Body-Weight</h1></div>
-              </div>
-              </Scroll>
+
+                <div className=' '>
+               <div className= 'box-1'><h1>5:30 Pm Evening Yoga</h1></div>
+               <div classname= 'box-2'><p >A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project
+               that the writer is trying to complete. By inserting a completely random paragraph from which to begin, it can take down some of the issues that may have been
+                causing the writers' block in the first place </p>     <button >Regsiter now</button></div>
+               </div>
+               
+               <div className='mainconatiner '>
+               <div className= 'box-1'><h1>8:30 Pm  Meditation</h1></div>
+               <div classname= 'box-2'><p >A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project
+               that the writer is trying to complete. By inserting a completely random paragraph from which to begin, it can take down some of the issues that may have been
+                causing the writers' block in the first place </p>     <button >Regsiter now</button></div>
+               </div>
+
+              
+              
+             
              </Modal>
           
              
