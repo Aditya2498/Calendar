@@ -13,6 +13,7 @@ const  Calen = (props) => {
        <Calendar
         onChange={onChange}
         onClickDay={props.onClickDay}
+        className = 'react-calendar'
        value={value}/>
       
     </div>

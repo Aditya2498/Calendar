@@ -1,7 +1,7 @@
-import React,{useState} from 'react';
+import React from 'react';
 import Modal from 'react-modal';
 import './Modal.css';
-import Scroll from './Scroll';
+
 
 
 const Mdal = (props) =>{
